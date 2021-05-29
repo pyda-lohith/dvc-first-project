@@ -1,0 +1,14 @@
+README.md
+setup.py
+mlopssrc.egg-info/PKG-INFO
+mlopssrc.egg-info/SOURCES.txt
+mlopssrc.egg-info/dependency_links.txt
+mlopssrc.egg-info/top_level.txt
+src/__init__.py
+src/get_data.py
+src/load_data.py
+src/split_data.py
+src/train_and_evaluate.py
+tests/__init__.py
+tests/conftest.py
+tests/test_config.py
