@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: D:\Personal_coding\mlops\megacommunity\dvc-first-project
-cmd: 'c:\users\hp\anaconda3\envs\deploy_ml\python.exe' setup.py sdist --formats=zip --dist-dir 'D:\Personal_coding\mlops\megacommunity\dvc-first-project\.tox\dist'
+cmd: 'c:\users\hp\anaconda3\envs\deploy_ml\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing mlopssrc.egg-info\PKG-INFO
@@ -33,8 +33,7 @@ copying tests\__init__.py -> mlopssrc-0.0.1\tests
 copying tests\conftest.py -> mlopssrc-0.0.1\tests
 copying tests\test_config.py -> mlopssrc-0.0.1\tests
 Writing mlopssrc-0.0.1\setup.cfg
-creating D:\Personal_coding\mlops\megacommunity\dvc-first-project\.tox\dist
-creating 'D:\Personal_coding\mlops\megacommunity\dvc-first-project\.tox\dist\mlopssrc-0.0.1.zip' and adding 'mlopssrc-0.0.1' to it
+creating '.tox\dist\mlopssrc-0.0.1.zip' and adding 'mlopssrc-0.0.1' to it
 adding 'mlopssrc-0.0.1'
 adding 'mlopssrc-0.0.1\mlopssrc.egg-info'
 adding 'mlopssrc-0.0.1\src'
